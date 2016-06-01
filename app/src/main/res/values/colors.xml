@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btnRed">#B44B37</color>
+    <color name="btnRedPress">#921F17</color>
+    <color name="btnGray">#374A5D</color>
+    <color name="btnGrayPress">#212F3F</color>
+</resources>

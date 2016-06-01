@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="center"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/alarm"/>
+        <TextView
+            android:id="@+id/tv_alarmitem_hour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:layout_marginLeft="10dp"
+            android:text="8시"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/tv_alarmitem_min"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="15분"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_alarmitem_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="화 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_wednsday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="토 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/tv_alarmitem_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일 "
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/tv_alarmitem_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="매주반복"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
